@@ -1,6 +1,6 @@
 
 import './App.css';
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+import { initializeApp } from "firebase/app";
 import {
   getFirestore,
   collection,
@@ -9,7 +9,7 @@ import {
   doc,
   updateDoc,
   Timestamp,
-} from "https://www.gstatic.com/firebasejs/9.17.1/firebase-firestore.js";
+} from "firebase/firestore";
 
 function App() {
 
