@@ -139,7 +139,7 @@ async function book(classID, user) {
       requestOptions2
     );
     console.log(await res.json());
-    return res.json();
+    billDay(user);
   } catch (error) {
     console.log(error);
   }
